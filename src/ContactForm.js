@@ -23,6 +23,7 @@ function ContactForm(){
     };
 
     return(
+        <div>
         <section id="contact">
             <h2>Contact Me:</h2>
             <form onSubmit={handleSubmit}>
@@ -41,6 +42,10 @@ function ContactForm(){
                 <button type="submit">Submit</button>
             </form>
         </section>
+            <section className="social-icons">
+            <i className="fa-brands fa-linkedin" />
+            </section>
+        </div>
     );
 }
 

@@ -13,6 +13,8 @@ function App(){
             <Navbar/>
             <Header/>
             <Skills/>
+            <i className="fas fa-user"></i>
+            <i className="fa-solid fa-star" />
             <Projects/>
             <ContactForm/>
             <Footer/>
